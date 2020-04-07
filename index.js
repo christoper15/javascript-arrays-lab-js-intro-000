@@ -10,9 +10,9 @@ return kittens.unshift(name);
 }
 
 function destructivelyRemoveLasKitten() {
-return kittens.push(pop);
+return kittens.pop();
 }
 
 function destructivelyRemoveFirstKitten() {
-return kittens.shift(name);
+return kittens.shift();
 }
