@@ -16,3 +16,8 @@ return kittens.pop();
 function destructivelyRemoveFirstKitten() {
 return kittens.shift();
 }
+
+function appendKitten(myArray, kitten) {
+newArray = [...myArray, kitten];
+return newArray;
+}
