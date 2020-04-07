@@ -21,3 +21,8 @@ function appendKitten(kitten) {
 var newArray = [...kittens, kitten];
 return newArray;
 }
+
+function prependKitten(kitten) {
+var newArray = [kitten, ...kittens];
+return newArray;
+}
