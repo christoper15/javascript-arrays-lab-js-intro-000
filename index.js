@@ -18,6 +18,6 @@ return kittens.shift();
 }
 
 function appendKitten(myArray, kitten) {
-newArray = [...myArray, kitten];
+var newArray = [...myArray, kitten];
 return newArray;
 }
